@@ -1,6 +1,6 @@
 # www
 
-[![Moonlight contractors](https://www.moonlightwork.com/shields/html.svg)](https://www.moonlightwork.com/?referredByUserID=1&referralProgram=maintainer&referrerName=Staffjoy)
+[![Moonlight contractors](https://www.moonlightwork.com/shields/html.svg)](https://www.moonlightwork.com/for/html?referredByUserID=1&referralProgram=maintainer&referrerName=Staffjoy)
 
 Short story: Run this command **before committing**.
 
