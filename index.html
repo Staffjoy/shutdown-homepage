@@ -1,191 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Staffjoy | Open-Source Scheduling Apps</title>
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/staffjoy.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,800' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Staffjoy | Open-Source Scheduling Apps</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/staffjoy.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,800'
+        rel='stylesheet' type='text/css'>
 
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <meta name="description" content="Staffjoy provides open-source workforce scheduling apps. The company started as a venture-funded startup in San Francisco founded by Philip I. Thomas.">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="description"
+        content="Staffjoy provides open-source workforce scheduling apps. The company started as a venture-funded startup in San Francisco founded by Philip I. Thomas.">
 
-  <link rel="icon" type="image/png" href="assets/images/icons/favicon-16x16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="assets/images/icons/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="assets/images/icons/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/png" href="assets/images/icons/favicon-128.png" sizes="128x128" />
-  <link rel="icon" type="image/png" href="assets/images/icons/android-icon-192x192.png" sizes="192x192" >
-  <link rel="icon" type="image/png" href="assets/images/icons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon-128.png" sizes="128x128" />
+    <link rel="icon" type="image/png" href="assets/images/icons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon-196x196.png" sizes="196x196" />
 
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-57x57.png" sizes="57x57" />
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-60x60.png" sizes="60x60" />
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-72x72.png" sizes="72x72" />
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-76x76.png" sizes="76x76" />
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-114x114.png" sizes="114x114" />
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-120x120.png" sizes="120x120" />
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-144x144.png" sizes="144x144" />
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-152x152.png" sizes="152x152" />
-  <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-icon-180x180.png" sizes="180x180" >
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-57x57.png" sizes="57x57" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-60x60.png" sizes="60x60" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-72x72.png" sizes="72x72" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-76x76.png" sizes="76x76" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-114x114.png" sizes="114x114" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-120x120.png" sizes="120x120" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-144x144.png" sizes="144x144" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-touch-icon-152x152.png" sizes="152x152" />
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icons/apple-icon-180x180.png" sizes="180x180">
 
-  <meta name="application-name" content="Staffjoy"/>
-  <meta name="msapplication-TileColor" content="#FFFFFF" />
-  <meta name="msapplication-TileImage" content="assets/images/icons/mstile-144x144.png" />
-  <meta name="msapplication-square70x70logo" content="assets/images/icons/mstile-70x70.png" />
-  <meta name="msapplication-square150x150logo" content="assets/images/icons/mstile-150x150.png" />
-  <meta name="msapplication-wide310x150logo" content="assets/images/icons/mstile-310x150.png" />
-  <meta name="msapplication-square310x310logo" content="assets/images/icons/mstile-310x310.png" />
+    <meta name="application-name" content="Staffjoy" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="assets/images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="assets/images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="assets/images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="assets/images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="assets/images/icons/mstile-310x310.png" />
 
-  <meta name="theme-color" content="#FFFFFF">
+    <meta name="theme-color" content="#FFFFFF">
 
-  <meta property="og:site_name" content="Staffjoy"/>
-  <meta property="og:title" content="Staffjoy | Open-Source Scheduling Software"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:link" content="https://www.staffjoy.com"/>
-  <meta property="og:image" content="https://www.staffjoy.comassets/images/staffjoy-logos/open-graph.jpg"/>
-  <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Staffjoy"/>
-  <meta property="twitter:description" content="Staffjoy provides open-source workforce scheduling apps. The company started as a venture-funded startup in San Francisco founded by Philip I. Thomas.">
-  <meta property="twitter:site" content="@staffjoy"/>
+    <meta property="og:site_name" content="Staffjoy" />
+    <meta property="og:title" content="Staffjoy | Open-Source Scheduling Software" />
+    <meta property="og:type" content="website" />
+    <meta property="og:link" content="https://www.staffjoy.com" />
+    <meta property="og:image" content="https://www.staffjoy.comassets/images/staffjoy-logos/open-graph.jpg" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Staffjoy" />
+    <meta property="twitter:description"
+        content="Staffjoy provides open-source workforce scheduling apps. The company started as a venture-funded startup in San Francisco founded by Philip I. Thomas.">
+    <meta property="twitter:site" content="@staffjoy" />
+    <script src="https://beneficial-okay.staffjoy.com/script.js" data-site="OKQWXTGT" defer></script>
 </head>
+
 <body>
     <div class="header">
-    <ul class="nav max-contained">
-        <li class="nav__item nav__logo">
-        <a href="/"><img src="assets/images/staffjoy-logos/logo-white.svg" alt="Staffjoy Logo"></a>
-        </li>
-        <li class="nav__item">
-        <a href="https://blog.staffjoy.com">Blog</a>
-        </li>
-        <li class="nav__item">
-            <a href="https://www.moonlightwork.com/for/staffjoy">Support</a>
-        </li>
+        <ul class="nav max-contained">
+            <li class="nav__item nav__logo">
+                <a href="/"><img src="assets/images/staffjoy-logos/logo-white.svg" alt="Staffjoy Logo"></a>
+            </li>
+            <li class="nav__item">
+                <a href="https://blog.staffjoy.com">Blog</a>
+            </li>
+            <li class="nav__item">
+                <a href="https://philipithomas.com">Support</a>
+            </li>
 
-        <li class="nav__item nav__item--desktop">
-        <a href="https://github.com/staffjoy/" class="button button--outline">Install</a>
-        </li>
-        <li class="nav__item nav__item--mobile">
-        <a href="https://github.com/staffjoy/">Install</a>
-        </li>
-    </ul>
+            <li class="nav__item nav__item--desktop">
+                <a href="https://github.com/staffjoy/" class="button button--outline">Install</a>
+            </li>
+            <li class="nav__item nav__item--mobile">
+                <a href="https://github.com/staffjoy/">Install</a>
+            </li>
+        </ul>
     </div>
     <div class="lead">
-    <div class="lead__text">
-        <h1 class="align--center" id="typed">Open-Source Workforce Scheduling Apps</h1>
-        <noscript>Open-Source Workforce Scheduling Apps</noscript>
-        <div class="lead__note">Create and publish shifts for your team online.</div>
-        <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent sign-up-submit lead__entry" href="https://github.com/staffjoy">Install on Github</a>
-        </form>
-    </div>
+        <div class="lead__text">
+            <h1 class="align--center" id="typed">Open-Source Workforce Scheduling Apps</h1>
+            <noscript>Open-Source Workforce Scheduling Apps</noscript>
+            <div class="lead__note">Create and publish shifts for your team online.</div>
+            <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent sign-up-submit lead__entry"
+                href="https://github.com/staffjoy">Install on Github</a>
+            </form>
+        </div>
     </div>
 
     <ul class="feature max-contained">
-        
+
         <li class="feature__item feature--schedule">
             <div class="feature__text">
-            <div class="feature__text__wrap">
-                <h2>Suite App: Automated Workforce Scheduling</h2>
-                <div class="feature__note">Suite, also known as "V1", was the first Staffjoy application. It provides algorithm-based scheduling that can manage hundreds of workers and decrease labor costs. It consists of the <a href="https://github.com/staffjoy/suite">Suite</a>, <a href="https://github.com/staffjoy/chomp-decomposition">Chomp</a>, <a href="https://github.com/staffjoy/mobius-assignment">Mobius</a>, <a href="https://github.com/staffjoy/suite-cron">Cron</a>, and <a href="https://github.com/staffjoy/mobile">Mobile</a> repos on Github.</div>
-            </div>
+                <div class="feature__text__wrap">
+                    <h2>Suite App: Automated Workforce Scheduling</h2>
+                    <div class="feature__note">Suite, also known as "V1", was the first Staffjoy application. It
+                        provides algorithm-based scheduling that can manage hundreds of workers and decrease labor
+                        costs. It consists of the <a href="https://github.com/staffjoy/suite">Suite</a>, <a
+                            href="https://github.com/staffjoy/chomp-decomposition">Chomp</a>, <a
+                            href="https://github.com/staffjoy/mobius-assignment">Mobius</a>, <a
+                            href="https://github.com/staffjoy/suite-cron">Cron</a>, and <a
+                            href="https://github.com/staffjoy/mobile">Mobile</a> repos on Github.</div>
+                </div>
             </div>
             <div class="feature__image">
-            <div class="schedule__animation">
-                <div class="schedule__bar schedule__bar--1"></div>
-                <div class="schedule__bar schedule__bar--2"></div>
-                <div class="schedule__bar schedule__bar--3"></div>
-                <div class="schedule__bar schedule__bar--4"></div>
-            </div>
+                <div class="schedule__animation">
+                    <div class="schedule__bar schedule__bar--1"></div>
+                    <div class="schedule__bar schedule__bar--2"></div>
+                    <div class="schedule__bar schedule__bar--3"></div>
+                    <div class="schedule__bar schedule__bar--4"></div>
+                </div>
             </div>
         </li>
-        
+
         <li class="feature__item feature--message">
             <div class="feature__image">
-            <div class="text-message">
-                Hey Philip - Your manager just added you to 7 Bridges on Staffjoy to share your work schedules.
-            </div>
-            <div class="text-message text-message--reverse">
-                Your 7 Bridges manager just published 2 new shifts that you are working:<br />
-                Fri 12/9 9:00AM - 5:00PM <br />
-                Sat 12/10 9:00AM - 5:00PM
-            </div>
+                <div class="text-message">
+                    Hey Philip - Your manager just added you to 7 Bridges on Staffjoy to share your work schedules.
+                </div>
+                <div class="text-message text-message--reverse">
+                    Your 7 Bridges manager just published 2 new shifts that you are working:<br />
+                    Fri 12/9 9:00AM - 5:00PM <br />
+                    Sat 12/10 9:00AM - 5:00PM
+                </div>
             </div>
             <div class="feature__text">
-            <div class="feature__text__wrap">
-                <h2>V2 App: Share Schedules In Less Time</h2>
-                <div class="feature__note">The V2 app lets you create a schedule online, then it notifies your team using text messages. This application was built for small teams in the service and retail industries. <a href="https://github.com/staffjoy/v2">View Staffjoy V2 on Github</a>.</div>
-            </div>
+                <div class="feature__text__wrap">
+                    <h2>V2 App: Share Schedules In Less Time</h2>
+                    <div class="feature__note">The V2 app lets you create a schedule online, then it notifies your team
+                        using text messages. This application was built for small teams in the service and retail
+                        industries. <a href="https://github.com/staffjoy/v2">View Staffjoy V2 on Github</a>.</div>
+                </div>
             </div>
         </li>
-        
+
         <li class="feature__item feature--broadcast">
             <div class="feature__text">
-            <div class="feature__text__wrap">
-                <h2>Startup Roots</h2>
-                <div class="feature__note">Staffjoy started in 2015 based on scheduling research by <a href="https://www.philipithomas.com">Philip Thomas</a>. The company participated in the inaugural <a href="https://techcrunch.com/2015/10/22/staffjoy-launches-from-yc-fellowship-helping-businesses-automate-their-workforce-scheduling/">Y Combinator Fellowship</a> program, and it went on to raise <a href="http://venturebeat.com/2017/02/14/y-combinator-backed-staffjoy-is-shutting-down-on-march-15/">$1.7M in venture funding</a>. The company <a href="https://blog.staffjoy.com/staffjoy-is-shutting-down-39f7b5d66ef6">shut down in 2017</a>, and <a href="https://github.com/staffjoy/">open-sourced its code under MIT licenses</a>.</div>
-            </div>
+                <div class="feature__text__wrap">
+                    <h2>Startup Roots</h2>
+                    <div class="feature__note">Staffjoy started in 2015 based on scheduling research by <a
+                            href="https://www.philipithomas.com">Philip Thomas</a>. The company participated in the
+                        inaugural <a
+                            href="https://techcrunch.com/2015/10/22/staffjoy-launches-from-yc-fellowship-helping-businesses-automate-their-workforce-scheduling/">Y
+                            Combinator Fellowship</a> program, and it went on to raise <a
+                            href="http://venturebeat.com/2017/02/14/y-combinator-backed-staffjoy-is-shutting-down-on-march-15/">$1.7M
+                            in venture funding</a>. The company <a
+                            href="https://blog.staffjoy.com/staffjoy-is-shutting-down-39f7b5d66ef6">shut down in
+                            2017</a>, and <a href="https://github.com/staffjoy/">open-sourced its code under MIT
+                            licenses</a>.</div>
+                </div>
             </div>
             <div class="feature__image">
-            <div class="broadcast__animation"></div>
-            <img src="assets/images/homepage/broadcast.svg" alt="" height="280" width="280" class="broadcast__image__background">
+                <div class="broadcast__animation"></div>
+                <img src="assets/images/homepage/broadcast.svg" alt="" height="280" width="280"
+                    class="broadcast__image__background">
             </div>
         </li>
     </ul>
 
     <div class="promo">
-    <div class="promo__wrap fence">
-        <h3 class="promo__text">See which app is right for your team:</h3>
-        <div>
-        <a href="https://github.com/staffjoy/" class="button button--outline">View Repos</a>
+        <div class="promo__wrap fence">
+            <h3 class="promo__text">See which app is right for your team:</h3>
+            <div>
+                <a href="https://github.com/staffjoy/" class="button button--outline">View Repos</a>
+            </div>
         </div>
-    </div>
     </div>
 
     <div class="usage">
-    <div class="fence">
-        <h2 class="text--center">Staffjoy works for all kinds of industries</h2>
-        <ul class="usage__list">
-        <li>Support teams</li>
-        <li>Delivery companies</li>
-        <li>Cafes</li>
-        <li>QSR</li>
-        <li>Restaurants</li>
-        <li>Warehouses</li>
-        <li>and many more &hellip;</li>
-        </ul>
-    </div>
+        <div class="fence">
+            <h2 class="text--center">Staffjoy works for all kinds of industries</h2>
+            <ul class="usage__list">
+                <li>Support teams</li>
+                <li>Delivery companies</li>
+                <li>Cafes</li>
+                <li>QSR</li>
+                <li>Restaurants</li>
+                <li>Warehouses</li>
+                <li>and many more &hellip;</li>
+            </ul>
+        </div>
     </div>
 
     <ul class="endorse max-contained">
-    <li class="endorse__item">
-        <div class="endorse__container">
-        <div class="endorse__img" style="background-image:url(assets/images/homepage/amber.jpg)"></div>
-        <div class="endorse__text">
-            <h4>Amber Stacey</h4>
-            <div class="endorse__credit">
-            Former Director of Customer Operations at Bellhops
+        <li class="endorse__item">
+            <div class="endorse__container">
+                <div class="endorse__img" style="background-image:url(assets/images/homepage/amber.jpg)"></div>
+                <div class="endorse__text">
+                    <h4>Amber Stacey</h4>
+                    <div class="endorse__credit">
+                        Former Director of Customer Operations at Bellhops
+                    </div>
+                    <div class="endorse__quote">
+                        "Staffjoy’s commitment to excellence is shown through their intuitive design and ease of use
+                        platform."
+                    </div>
+                </div>
             </div>
-            <div class="endorse__quote">
-            "Staffjoy’s commitment to excellence is shown through their intuitive design and ease of use platform."
+        </li>
+        <li class="endorse__item endorse__item--light">
+            <div class="endorse__container">
+                <div class="endorse__img" style="background-image:url(assets/images/homepage/talieh.jpg)"></div>
+                <div class="endorse__text">
+                    <h4>Shervin Talieh</h4>
+                    <div class="endorse__credit">
+                        Founder and CEO, PartnerHero
+                    </div>
+                    <div class="endorse__quote">
+                        "Our experience with Staffjoy has been great so far, and I only see it getting better as we
+                        grow."
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
-    </li>
-    <li class="endorse__item endorse__item--light">
-        <div class="endorse__container">
-        <div class="endorse__img" style="background-image:url(assets/images/homepage/talieh.jpg)"></div>
-        <div class="endorse__text">
-            <h4>Shervin Talieh</h4>
-            <div class="endorse__credit">
-            Founder and CEO, PartnerHero
-            </div>
-            <div class="endorse__quote">
-            "Our experience with Staffjoy has been great so far, and I only see it getting better as we grow."
-            </div>
-        </div>
-        </div>
-    </li>
+        </li>
     </ul>
 
     <div class="footer-cta">
@@ -193,30 +221,35 @@
             <h2>
                 Need help getting started?
             </h2>
-            <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent sign-up-submit" id="v2-signup-bottom" href="https://www.moonlightwork.com/for/staffjoy">
-                Hire a Staffjoy expert
+            <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent sign-up-submit"
+                id="v2-signup-bottom" href="https://www.philipithomas.com">
+                Contact the creator
             </a>
         </div>
     </div>
     <div class="footer max-contained">
-    <ul class="footer__block">
-        <li class="footer__item footer__logo">
-        <img src="assets/images/staffjoy-logos/logo.svg?version={{ .Version }}" alt="Staffjoy Logo" height="37" width="120">
-        <ul class="social">
-            <li class="social__item">
-            <a href="https://twitter.com/staffjoy"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            </li>
-            <li class="social__item">
-            <a href="https://github.com/staffjoy"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-            </li>
-            <li class="social__item">
-            <a href="https://facebook.com/staffjoyapp"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            </li>
-            <li class="social__item">
-            <a href="https://www.linkedin.com/company/6612912"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </li>
-            <li class="social__item__instagram">
-            <a href="https://www.instagram.com/staffjoy/" style="
+        <ul class="footer__block">
+            <li class="footer__item footer__logo">
+                <img src="assets/images/staffjoy-logos/logo.svg?version={{ .Version }}" alt="Staffjoy Logo" height="37"
+                    width="120">
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="https://twitter.com/staffjoy"><i class="fa fa-twitter-square"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://github.com/staffjoy"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://facebook.com/staffjoyapp"><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://www.linkedin.com/company/6612912"><i class="fa fa-linkedin-square"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li class="social__item__instagram">
+                        <a href="https://www.instagram.com/staffjoy/" style="
                 color: white;
                 font-size: 20px;
                 margin-top: -8px;
@@ -224,37 +257,41 @@
                 top: -3px;
                 position: relative;
                 opacity: 1;">
-                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer__item">
+                <h5>Company</h5>
+                <ul>
+                    <li><a href="https://blog.staffjoy.com/staffjoy-is-shutting-down-39f7b5d66ef6#.gg0bqcrov">About Our
+                            Shutdown</a></li>
+                    <li><a
+                            href="https://blog.staffjoy.com/staffjoys-pitch-decks-that-raised-1-7m-15812018968#.l2k8p6fsm">Pitch
+                            Decks That Raised $1.7M in Funding</a></li>
+                    <li><a href="https://blog.staffjoy.com/staffjoy-v2-ca15ff1a1169#.tbl3fwkz2">Our Design Journey</a>
+                    </li>
+                    <li><a href="https://blog.staffjoy.com/archive">Blog Archive</a></li>
+                </ul>
+            </li>
+            <li class="footer__item">
+                <h5>Help</h5>
+                <ul>
+                    <li><a href="https://staffjoy-suite.readme.io/">Suite API Docs</a></li>
+                    <li><a href="https://contraption.co">Other projects from the Staffjoy creator</a></li>
+                </ul>
+            </li>
+            <li class="footer__item">
+                <h5>Contact</h5>
+                <ul>
+                    <li>
+                        Philip Thomas<br>
+                        Former Founder and CEO<br>
+                        <a href="https://www.philipithomas.com">philipithomas.com</a>
+                    </li>
+                </ul>
             </li>
         </ul>
-        </li>
-        <li class="footer__item">
-        <h5>Company</h5>
-        <ul>
-            <li><a href="https://blog.staffjoy.com/staffjoy-is-shutting-down-39f7b5d66ef6#.gg0bqcrov">About Our Shutdown</a></li>
-            <li><a href="https://blog.staffjoy.com/staffjoys-pitch-decks-that-raised-1-7m-15812018968#.l2k8p6fsm">Pitch Decks That Raised $1.7M in Funding</a></li>
-            <li><a href="https://blog.staffjoy.com/staffjoy-v2-ca15ff1a1169#.tbl3fwkz2">Our Design Journey</a></li>
-            <li><a href="https://blog.staffjoy.com/archive">Blog Archive</a></li>
-        </ul>
-        </li>
-        <li class="footer__item">
-        <h5>Help</h5>
-        <ul>
-            <li><a href="https://staffjoy-suite.readme.io/">Suite API Docs</a></li>
-            <li><a href="https://www.moonlightwork.com/for/staffjoy">Hire a contractor</a></li>
-        </ul>
-        </li>
-        <li class="footer__item">
-        <h5>Contact</h5>
-        <ul>
-            <li>
-            Philip Thomas<br>
-            Former Founder and CEO<br>
-            <a href="https://www.philipithomas.com">philipithomas.com</a>
-            </li>
-        </ul>
-        </li>
-    </ul>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="assets/js/analytics.js"></script>
@@ -263,4 +300,5 @@
     <script src="assets/js/typed.js"></script>
     <script src="assets/js/home.js"></script>
 </body>
+
 </html>
